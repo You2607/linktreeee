@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+    }
+body {
+    
+    background-color:#ECE0CD ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.container {
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 0px;
+}  
+
+
+
+.svg {
+   
+    
+    stroke: #F9EBDB;
+    stroke-width: 1;
+    fill: white;
+    transform-origin: 0px 0px;}
+    bag
+
+.cercle{
+     border-radius:45;
+     overflow-x:50;
+     overflow-y:50; 
+     stroke:#F9EBDB; 
+     stroke-width:1;
+     height:121px; 
+     width:137px; 
+     left:111px;
+     top:636px;}
+
+
+
+.links-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px , 0px 4px 4px #FFFEFE, inset 0px 4px 4px #F9EBDB;
+    border-radius: 138.5px;
+}
+
+.ty:hover {
+    /* Ellipse 2 */
+background: #FCFCFC;
+box-shadow: 0px 4px 4px #F9EBDB, 0px 4px 4px #FFFEFE, inset 0px 4px 4px #F9EBDB;
+filter: blur(2px);
+/* Ty */
+position: absolute;
+width: 82px;
+height: 59px;
+left: 149px;
+top: 572px;
+}
+.overlay {/*recouvrir*/ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    }
+
+
+
+.profile h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Italiana';
+    border: 1px solid ;
+    filter: drop-shadow(0px 4px 4px #00000040) drop-shadow(0px 4px 4px #F9EBDB);
+    background: 'circle' ;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
+}
+.profile p {
+    font-size: 18px;
+    color: rgba(91, 89, 89, 0.35);
+    margin-bottom: 20px;
+    border: 1px solid #F9EBDB ;
+    font-family: 'Abhaya Libre';
+}
+
+.links .link {
+    display: block;
+    background-color: #fdfdfc;
+    padding: 20px;
+    margin: 5px 0;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    color:#000000;
+    text-shadow: 5px 4px 4px #F9EBDB ;
+    font-family: 'Italiana';
+    box-shadow: inset 5px px 4px #F9EBDB;
+    
+}
+.links .link:hover {
+    background-color: #F9EBDB;
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom:0 ;
+   width: 100%;
+   background-color:#F9EBDB;
+   color: rgb(10, 10, 10);
+   text-align: center; 
+}
